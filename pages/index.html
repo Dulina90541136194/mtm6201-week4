@@ -15,18 +15,13 @@
     </div>
     <picture>
         <!-- Images for viewports below 960px -->
-        <source srcset="images/museum-320px.jpg 320w,
-                        images/museum-480px.jpg 480w,
-                        images/museum-720px.jpg 720w,
-                        images/museum-960px.jpg 960w"
-                media="(max-width: 959px)">
+        <source media="(max-width: 959px)" srcset="images/museum.jpg">
+
         <!-- Images for viewports 960px and above -->
-        <source srcset="images/museum-480px.jpg 480w,
-                        images/museum-960px.jpg 960w,
-                        images/museum-1440px.jpg 1440w"
-                media="(min-width: 960px)">
+        <source media="(min-width: 960px)" srcset="images/museum.jpg"> 
+        
         <!-- Fallback image -->
-        <img src="images/museum.jpg" alt="Museum">
+        <img src="../images/museum.jpg" alt="Museum">
       </picture>
   </header>
 </body>
